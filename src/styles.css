@@ -70,12 +70,6 @@ a {
 .text-project {
   padding: 120px 60px;
 }
-@media (max-width: 900px) {
-  .text-project {
-    padding: 0;
-    text-align: center;
-  }
-}
 
 .btn-project {
   color: var(--btn-color);
@@ -90,22 +84,25 @@ a {
   color: #fff;
 }
 .wrapper {
+  display: flex;
+
   background-color: var(--background-color-hero);
   margin-top: 130px;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
 .work-inquiry {
-  padding-left: 120px;
+  /* padding-left: 120px; */
 }
 .text-wrapper {
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
 }
-.wrapper-link {
+/* .wrapper-link {
   padding-left: 120px;
   padding: 70px 120px;
-}
+} */
 .email-link {
   display: flex;
   justify-content: center;
@@ -115,4 +112,34 @@ a {
   font-size: 24px;
   line-height: 36px;
   text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .text-project {
+    padding: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+  h4,
+  h5 {
+    font-size: 36px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper {
+    display: block;
+    padding-bottom: 30px;
+    text-align: center;
+  }
 }

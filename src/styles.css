@@ -180,3 +180,9 @@ a {
   text-align: center;
   margin-bottom: 40px;
 }
+.list {
+  list-style: none;
+}
+.social-link {
+  padding: 0;
+}

@@ -63,7 +63,7 @@ a {
   line-height: 14px;
 }
 .active {
-  color: #6c63ff !important;
+  color: var(--btn-color) !important;
 }
 .nav-direction {
   flex-direction: row-reverse;
@@ -194,6 +194,22 @@ a {
 .list {
   list-style: none;
 }
+/* footer */
 .social-link {
   padding: 0;
+}
+
+.social-link a {
+  margin: 0 20px;
+  color: var(--btn-color);
+  background: var(--background-color-hero);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+.social-link a:hover {
+  color: var(--background-color-hero);
+  background: var(--btn-color);
 }

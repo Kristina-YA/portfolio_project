@@ -57,6 +57,9 @@ a {
   padding: 18px 30px;
   font-size: 18px;
 }
+li {
+  list-style-type: none;
+}
 /* nav */
 .nav-item {
   padding: 0 10px;
@@ -104,6 +107,14 @@ a {
   background: var(--background-color-hero);
   border: 1px solid var(--btn-color);
 }
+.contact-form {
+  /* width: 50%; */
+  text-align: center;
+}
+.contact-phone {
+  padding: 0;
+  color: var(--elementary-color);
+}
 .wrapper {
   display: flex;
 
@@ -118,10 +129,7 @@ a {
   font-size: 18px;
   line-height: 27px;
 }
-/* .wrapper-link {
-  padding-left: 120px;
-  padding: 70px 120px;
-} */
+
 .email-link {
   display: flex;
   justify-content: center;
@@ -163,6 +171,10 @@ a {
     display: block;
     padding-bottom: 30px;
     text-align: center;
+  }
+  .text-wrapper {
+    font-size: 14px;
+    line-height: 2px;
   }
 }
 
